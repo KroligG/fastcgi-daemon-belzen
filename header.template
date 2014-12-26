@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+<head langname="en">
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <title langname="title">Беларускі дзэн. Стабільны і бессэнсоўны</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="static/css.css" rel="stylesheet" type="text/css">
+    <link href="static/css_002.css" rel="stylesheet" type="text/css">
+    <link href="static/main.css" rel="stylesheet" type="text/css">
+    <script src="static/jquery_003.js"></script>
+    <script src="static/jquery.js"></script>
+    <script src="static/jquery_002.js"></script>
+    <script src="static/buzz.js"></script>
+    <script src="static/main.js"></script>
+    <script type="text/javascript">
+        var Lang = {
+            'rus': {
+                title: 'Белорусский дзен. Бессмысленный и стабильный',
+                musicoff: 'Выключить музыку',
+                musicon: 'Включить музыку',
+                text: 'Курс доллара США по версии НБРБ',
+                text2: 'Здорово, когда зарплата привязана к курсу НБРБ.',
+                text3: 'А на самом деле',
+                update: 'Обновлено:'
+            },
+            'bel': {
+                title: 'Беларускі дзэн. Стабільны і бессэнсоўны',
+                musicoff: 'Выключыць музыку',
+                musicon: 'Уключыць музыку',
+                text: 'Курс долара ЗША па версіі НБРБ',
+                text2: 'Цудоуна, калі зарплата прывязана да курсу НБРБ.',
+                text3: 'А на самай справе',
+                update: 'Абноўлена:'
+            }
+        };
+    </script>
+</head>
+<body data-vide-bg="static/belzen_classic" data-vide-options="loop: true, muted: false, position: 0% 0%">
+<div style="position: absolute; z-index: -1; top: 0px; left: 0px; bottom: 0px; right: 0px; overflow: hidden; background-size: cover; background-repeat: no-repeat; background-position: center center;">
+    <video loop="" autoplay="autoplay"
+           style="visibility: visible; margin: auto; position: absolute; z-index: -1; top: 0%; left: 0%; transform: translate(0%, 0%); width: 1716px; height: auto;">
+        <source src="static/belzen_classic.mp4" type="video/mp4">
+        <source src="static/belzen_classic_002.html" type="video/webm">
+        <source src="static/belzen_classic.html" type="video/ogg">
+    </video>
+</div>
+<div class="b-page">
+    <div class="b-page__controls">
+        <ul class="quotes">
+            <li style="display: none;" class="">
+                <div class="image">
+                    <img src="static/person_nadolny.png" alt="Тарас Надольный" title="Тарас Надольный">
+                </div>
+                <div class="content">
+                    <div class="text">— Мы заказали валюту в иностранных банках. Самолеты уже на подлете.</div>
+                    <div class="info">
+                        <span class="name">Тарас Надольный</span>
+                        <span class="date">19.12.2014</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_lukashenko.png" alt="Александр Лукашенко" title="Александр Лукашенко">
+                </div>
+                <div class="content">
+                    <div class="text">— В конце концов, действительно лучше купить какой-то товар, чем покупать доллар.
+                        Неизвестно, завтра что с ним будет.
+                    </div>
+                    <div class="info">
+                        <span class="name">Александр Лукашенко</span>
+                        <span class="date">22.12.2014</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_prokopovich.png" alt="Пётр Прокопович" title="Пётр Прокопович">
+                </div>
+                <div class="content">
+                    <div class="text">— Вопрос о девальвации – не ко мне. Но если вы мне верите, то – не будет.</div>
+                    <div class="info">
+                        <span class="name">Пётр Прокопович</span>
+                        <span class="date">19.12.2014</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_lukashenko.png" alt="Александр Лукашенко" title="Александр Лукашенко">
+                </div>
+                <div class="content">
+                    <div class="text">— Беларусь не будет бежать за Россией и девальвировать национальный рубль.</div>
+                    <div class="info">
+                        <span class="name">Александр Лукашенко</span>
+                        <span class="date">18.12.2014</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_semashko.png" alt="Владимир Семашко" title="Владимир Семашко">
+                </div>
+                <div class="content">
+                    <div class="text">— Конечно, девальвация должна идти плавными темпами.</div>
+                    <div class="info">
+                        <span class="name">Владимир Семашко</span>
+                        <span class="date">31.10.2014</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_prokopovich.png" alt="Пётр Прокопович" title="Пётр Прокопович">
+                </div>
+                <div class="content">
+                    <div class="text">— Мы с уверенностью можем сказать, что в этой
+                        пятилетке курс национальной валюты будет стабильным и предсказуемым в
+                        течение всего этого периода.
+                    </div>
+                    <div class="info">
+                        <span class="name">Пётр Прокопович</span>
+                        <span class="date">28.01.2011</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_prokopovich.png" alt="Пётр Прокопович" title="Пётр Прокопович">
+                </div>
+                <div class="content">
+                    <div class="text">— Пока я являюсь главой Нацбанка, никакой разовой одномоментной девальвации не
+                        будет.
+                    </div>
+                    <div class="info">
+                        <span class="name">Пётр Прокопович</span>
+                        <span class="date">17.03.2011</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_rumas.png" alt="Сергей Румас" title="Сергей Румас">
+                </div>
+                <div class="content">
+                    <div class="text">— Общая задача — в третьем квартале выйти на
+                        равновесный курс белорусского рубля и забыть о проблемах на валютном
+                        рынке навсегда.
+                    </div>
+                    <div class="info">
+                        <span class="name">Сергей Румас</span>
+                        <span class="date">06.07.2011</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_lukashenko.png" alt="Александр Лукашенко" title="Александр Лукашенко">
+                </div>
+                <div class="content">
+                    <div class="text">— Сегодня — завтра — послезавтра мы выровняем
+                        ситуацию по валюте. Но вы на меня не обижайтесь. Курс — это дело
+                        нескольких дней, надо, может быть, неделя.
+                    </div>
+                    <div class="info">
+                        <span class="name">Александр Лукашенко</span>
+                        <span class="date">24.09.2012</span>
+                    </div>
+                </div>
+            </li>
+            <li style="display: none;" class="">
+                <div class="image">
+                    <img src="static/person_lukashenko.png" alt="Александр Лукашенко" title="Александр Лукашенко">
+                </div>
+                <div class="content">
+                    <div class="text">— ...продолжает нагнетать обстановку: мол,
+                        что-то тут должно произойти. Ничего не должно произойти. По крайней
+                        мере, мы должны следовать таким курсом, как обещали народу.
+                    </div>
+                    <div class="info">
+                        <span class="name">Александр Лукашенко</span>
+                        <span class="date">24.09.2012</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_lukashenko.png" alt="Александр Лукашенко" title="Александр Лукашенко">
+                </div>
+                <div class="content">
+                    <div class="text">— Не знаю, к чему готовились, зачем, хотя мы
+                        всегда говорили, что не собираемся обваливать курс национальной валюты и
+                        будем всячески поддерживать нашу национальную валюту.
+                    </div>
+                    <div class="info">
+                        <span class="name">Александр Лукашенко</span>
+                        <span class="date">21.07.2014</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_lukashenko.png" alt="Александр Лукашенко" title="Александр Лукашенко">
+                </div>
+                <div class="content">
+                    <div class="text">— Для меня главное, когда у человека глаза
+                        светятся, он доволен, ему хорошо живется. Ничего мне не надо, лишь бы
+                        было вам хорошо.
+                    </div>
+                    <div class="info">
+                        <span class="name">Александр Лукашенко</span>
+                        <span class="date">08.10.2013</span>
+                    </div>
+                </div>
+            </li>
+            <li style="display: list-item;" class="active">
+                <div class="image">
+                    <img src="static/person_lukashenko.png" alt="Александр Лукашенко" title="Александр Лукашенко">
+                </div>
+                <div class="content">
+                    <div class="text">— Появился у вас лишний белорусский рубль, куда
+                        вы побежали? В обменники скупать валюту. И потом кричат: а будет
+                        девальвация или не будет? Если будет девальвация – вы ее сделаете.
+                    </div>
+                    <div class="info">
+                        <span class="name">Александр Лукашенко</span>
+                        <span class="date">08.10.2013</span>
+                    </div>
+                </div>
+            </li>
+            <li style="display: none;" class="">
+                <div class="image">
+                    <img src="static/person_ermakova.png" alt="Надежда Ермакова" title="Надежда Ермакова">
+                </div>
+                <div class="content">
+                    <div class="text">— У нас нет необходимости в резкой девальвации.
+                        Резкая девальвация противоречит планам по увеличению зарплаты в
+                        долларовом эквиваленте.
+                    </div>
+                    <div class="info">
+                        <span class="name">Надежда Ермакова</span>
+                        <span class="date">13.09.2012</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_ermakova.png" alt="Надежда Ермакова" title="Надежда Ермакова">
+                </div>
+                <div class="content">
+                    <div class="text">— Валюты достаточно для того, чтобы удовлетворить имеющийся на нее спрос.
+                        Мы в первую половину года скупали валюту и на бирже, и у населения.
+                    </div>
+                    <div class="info">
+                        <span class="name">Надежда Ермакова</span>
+                        <span class="date">24.09.2012</span>
+                    </div>
+                </div>
+            </li>
+            <li style="display: none;" class="">
+                <div class="image">
+                    <img src="static/person_miasnikovich.png" alt="Михаил Мясникович" title="Михаил Мясникович">
+                </div>
+                <div class="content">
+                    <div class="text">— Особенно эта сплетня ходила, что после
+                        чемпионата мира обязательно рубль обвалится. У нас нет никаких
+                        объективных причин для того, чтобы такое произошло.
+                    </div>
+                    <div class="info">
+                        <span class="name">Михаил Мясникович</span>
+                        <span class="date">21.07.2014</span>
+                    </div>
+                </div>
+            </li>
+            <li class="">
+                <div class="image">
+                    <img src="static/person_miasnikovich.png" alt="Михаил Мясникович" title="Михаил Мясникович">
+                </div>
+                <div class="content">
+                    <div class="text">— Обвала белорусского рубля не будет, не надо стоять в обменниках.</div>
+                    <div class="info">
+                        <span class="name">Михаил Мясникович</span>
+                        <span class="date">11.07.2013</span>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <ul class="language">
+            <li class="bel active"><a href="javascript:void(0)" langid="bel"><i></i>БЕЛ</a></li>
+            <li class="rus"><a href="javascript:void(0)" langid="rus"><i></i>РУС</a></li>
+        </ul>
+        <div class="music">
+            <a href="javascript:void(0)" class="music-btn stop"><span class="off"
+                                                                      langname="musicoff">Выключыць музыку</span><span
+                    class="on" langname="musicon">Уключыць музыку</span></a>
+        </div>
+    </div>
+    <div style="height: 353px; font-size: 0.44125em;" class="b-page__zen">
